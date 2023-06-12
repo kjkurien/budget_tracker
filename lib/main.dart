@@ -96,6 +96,7 @@ class _HomeScreenState extends State<HomeScreen> {
     _refreshBudgetEntries();
   }
 
+  //
   Future<void> _refreshBudgetEntries() async {
     try {
       final request = ModelQueries.list(BudgetEntry.classType);
